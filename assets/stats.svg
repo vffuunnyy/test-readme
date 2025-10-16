@@ -6,9 +6,9 @@
       to { opacity: 1; }
     }
 
-    #stats-svg > .bg-rect { animation: statsFadeIn 0.6s ease-out; }
-    #stats-svg > .grid-rect { animation: statsFadeIn 0.4s ease-out 0.2s backwards; }
-    #stats-svg > .bar { animation: statsFadeIn 0.6s ease-out 0.2s backwards; }
+    #stats-svg > .bg-rect { animation: statsFadeIn 0.8s ease-out; }
+    #stats-svg > .grid-rect { animation: statsFadeIn 0.8s ease-out 0.2s backwards; }
+    #stats-svg > .bar { animation: statsFadeIn 0.9s ease-out 0.2s backwards; }
 
     #stats-svg #content > g { animation: statsFadeIn 0.8s ease-out; animation-fill-mode: backwards; }
     #stats-svg #content > g:nth-child(1) { animation-delay: 0.0s; }
