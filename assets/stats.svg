@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1200" height="370" viewBox="0 0 1200 370" xmlns="http://www.w3.org/2000/svg">
+<svg id="stats-svg" width="1200" height="370" viewBox="0 0 1200 370" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes statsFadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    #stats-svg > .bg-rect { animation: statsFadeIn 0.6s ease-out; }
+    #stats-svg > .grid-rect { animation: statsFadeIn 0.4s ease-out 0.2s backwards; }
+    #stats-svg > .bar { animation: statsFadeIn 0.6s ease-out 0.2s backwards; }
+
+    #stats-svg #content > g { animation: statsFadeIn 0.8s ease-out; animation-fill-mode: backwards; }
+    #stats-svg #content > g:nth-child(1) { animation-delay: 0.0s; }
+    #stats-svg #content > g:nth-child(2) { animation-delay: 0.1s; }
+    #stats-svg #content > g:nth-child(3) { animation-delay: 0.2s; }
+    #stats-svg #content > g:nth-child(4) { animation-delay: 0.3s; }
+    #stats-svg #content > g:nth-child(5) { animation-delay: 0.4s; }
+    #stats-svg #content > g:nth-child(6) { animation-delay: 0.5s; }
+
+    #stats-svg #content > g rect { animation: statsFadeIn 0.6s ease-out; animation-fill-mode: backwards; }
+    #stats-svg #content > g text { animation: statsFadeIn 0.8s ease-out 0.2s backwards; }
+  </style>
   <defs>
     <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0c1117"/><stop offset="100%" stop-color="#0a0f16"/>
@@ -16,14 +37,14 @@
     </filter>
   </defs>
 
-  <rect width="100%" height="100%" rx="18" fill="url(#g1)"/>
-  <rect width="100%" height="100%" rx="18" fill="url(#grid)"/>
+  <rect class="bg-rect" width="100%" height="100%" rx="18" fill="url(#g1)"/>
+  <rect class="grid-rect" width="100%" height="100%" rx="18" fill="url(#grid)"/>
 
-  <path d="M1158 24H30V346H1158C1167.94 346 1176 337.941 1176 328V42C1176 32.0589 1167.94 24 1158 24Z" fill="#0E1622" fill-opacity="0.72"/>
-  <path d="M1158 24.5C1167.67 24.5 1175.5 32.335 1175.5 42V328C1175.5 337.665 1167.67 345.5 1158 345.5H30.5V24.5H1158Z" stroke="#1F2937" stroke-opacity="0.6" fill="none"/>
-  <path d="M31 346V24C27.134 24 24 27.134 24 31V339C24 342.866 27.134 346 31 346Z" fill="url(#accent)"/>
+  <path class="bar" d="M1158 24H30V346H1158C1167.94 346 1176 337.941 1176 328V42C1176 32.0589 1167.94 24 1158 24Z" fill="#0E1622" fill-opacity="0.72"/>
+  <path class="bar" d="M1158 24.5C1167.67 24.5 1175.5 32.335 1175.5 42V328C1175.5 337.665 1167.67 345.5 1158 345.5H30.5V24.5H1158Z" stroke="#1F2937" stroke-opacity="0.6" fill="none"/>
+  <path class="bar" d="M31 346V24C27.134 24 24 27.134 24 31V339C24 342.866 27.134 346 31 346Z" fill="url(#accent)"/>
 
-  <g transform="translate(54,54)">
+  <g id="content" transform="translate(54,54)">
       <g transform="translate(0,0)">
         <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Запланировано</text>
         <rect x="220" y="0" width="798" height="26" rx="6"
