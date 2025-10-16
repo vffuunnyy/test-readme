@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="370" viewBox="0 0 1200 370" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1117"/><stop offset="100%" stop-color="#0a0f16"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="59.428" patternTransform="scale(1.1)" patternUnits="userSpaceOnUse">
+        <path fill="none" stroke="#fff" stroke-linecap="square" stroke-opacity=".05" d="M0 70.975V47.881m20-1.692L8.535 52.808v13.239L20 72.667l11.465-6.62V52.808zm0-32.95 11.465-6.62V-6.619L20-13.24 8.535-6.619V6.619L20 13.24m8.535 4.927v13.238L40 38.024l11.465-6.62V18.166L40 11.546zM20 36.333 0 47.88m0 0v23.094m0 0 20 11.548 20-11.548V47.88m0 0L20 36.333m0 0 20 11.549M0 11.547l-11.465 6.619v13.239L0 38.025l11.465-6.62v-13.24L0 11.548v-23.094l20-11.547 20 11.547v23.094M20 36.333V13.24"/>
+	</pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="ds" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" rx="18" fill="url(#g1)"/>
+  <rect width="100%" height="100%" rx="18" fill="url(#grid)"/>
+
+  <path d="M1158 24H30V346H1158C1167.94 346 1176 337.941 1176 328V42C1176 32.0589 1167.94 24 1158 24Z" fill="#0E1622" fill-opacity="0.72"/>
+  <path d="M1158 24.5C1167.67 24.5 1175.5 32.335 1175.5 42V328C1175.5 337.665 1167.67 345.5 1158 345.5H30.5V24.5H1158Z" stroke="#1F2937" stroke-opacity="0.6" fill="none"/>
+  <path d="M31 346V24C27.134 24 24 27.134 24 31V339C24 342.866 27.134 346 31 346Z" fill="url(#accent)"/>
+
+  <g transform="translate(54,54)">
+      <g transform="translate(0,0)">
+        <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Запланировано</text>
+        <rect x="220" y="0" width="798" height="26" rx="6"
+              fill="#4b5563" stroke="#1f2937" stroke-opacity="0.6"/>
+        <text x="1030" y="18" font-size="14" fill="#8b949e" font-family="Jetbrains Mono, ui-sans-serif, system-ui">567</text>
+      </g>
+      <g transform="translate(0,46)">
+        <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Завершено</text>
+        <rect x="220" y="0" width="681" height="26" rx="6"
+              fill="#3b82f6" stroke="#1f2937" stroke-opacity="0.6"/>
+        <text x="913" y="18" font-size="14" fill="#8b949e" font-family="Jetbrains Mono, ui-sans-serif, system-ui">484</text>
+      </g>
+      <g transform="translate(0,92)">
+        <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Смотрю</text>
+        <rect x="220" y="0" width="157" height="26" rx="6"
+              fill="#22c55e" stroke="#1f2937" stroke-opacity="0.6"/>
+        <text x="389" y="18" font-size="14" fill="#8b949e" font-family="Jetbrains Mono, ui-sans-serif, system-ui">112</text>
+      </g>
+      <g transform="translate(0,138)">
+        <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Отложено</text>
+        <rect x="220" y="0" width="59" height="26" rx="6"
+              fill="#f59e0b" stroke="#1f2937" stroke-opacity="0.6"/>
+        <text x="291" y="18" font-size="14" fill="#8b949e" font-family="Jetbrains Mono, ui-sans-serif, system-ui">42</text>
+      </g>
+      <g transform="translate(0,184)">
+        <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Брошено</text>
+        <rect x="220" y="0" width="14" height="26" rx="6"
+              fill="#ef4444" stroke="#1f2937" stroke-opacity="0.6"/>
+        <text x="246" y="18" font-size="14" fill="#8b949e" font-family="Jetbrains Mono, ui-sans-serif, system-ui">10</text>
+      </g>
+      <g transform="translate(0,230)">
+        <text x="0" y="18" font-size="15" fill="#c9d1d9" font-family="Jetbrains Mono, ui-sans-serif, system-ui">Пересматриваю</text>
+        <rect x="220" y="0" width="0" height="26" rx="6"
+              fill="#10b981" stroke="#1f2937" stroke-opacity="0.6"/>
+        <text x="232" y="18" font-size="14" fill="#8b949e" font-family="Jetbrains Mono, ui-sans-serif, system-ui">0</text>
+      </g>
+    </g>
+</svg>

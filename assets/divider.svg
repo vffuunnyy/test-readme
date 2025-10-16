@@ -1,0 +1,29 @@
+<svg width="1200" height="180" viewBox="0 0 1200 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#2563eb" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left kubei animation -->
+  <image href="kubei.gif" x="0" y="-10" height="120" opacity="0.85" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Right kubei animation (mirrored) -->
+  <image href="kubei.gif" x="1080" y="-10" height="120" opacity="0.85" preserveAspectRatio="xMidYMid slice" transform="scale(-1, 1) translate(-2280, 0)"/>
+
+  <!-- Left line -->
+  <line x1="140" y1="60" x2="440" y2="60" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Right line -->
+  <line x1="760" y1="60" x2="1060" y2="60" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Center text -->
+  <text x="600" y="60" font-size="52" font-weight="600" fill="#e6edf3" font-family="Jetbrains Mono, ui-sans-serif, system-ui" text-anchor="middle" dominant-baseline="middle">Рекомендую посмотреть</text>
+
+  <!-- Arrow pointing down -->
+  <g transform="translate(600, 130)">
+    <path d="M-8,-4 L0,4 L8,-4" transform="scale(3)" stroke="#7c3aed" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
