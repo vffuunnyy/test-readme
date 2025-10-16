@@ -8,10 +8,10 @@
   </defs>
 
   <!-- Left kubei animation -->
-  <image href="https://raw.githubusercontent.com/vffuunnyy/test-readme/main/assets/kubei.gif" x="0" y="-10" height="120" opacity="0.85" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://cdn.jsdelivr.net/gh/vffuunnyy/test-readme/assets/kubei.gif" x="0" y="-10" height="120" opacity="0.85" preserveAspectRatio="xMidYMid slice"/>
 
   <!-- Right kubei animation (mirrored) -->
-  <image href="https://raw.githubusercontent.com/vffuunnyy/test-readme/main/assets/kubei.gif" x="1080" y="-10" height="120" opacity="0.85" preserveAspectRatio="xMidYMid slice" transform="scale(-1, 1) translate(-2280, 0)"/>
+  <image href="https://cdn.jsdelivr.net/gh/vffuunnyy/test-readme/assets/kubei.gif" x="1080" y="-10" height="120" opacity="0.85" preserveAspectRatio="xMidYMid slice" transform="scale(-1, 1) translate(-2280, 0)"/>
 
   <!-- Left line -->
   <line x1="140" y1="60" x2="440" y2="60" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round"/>

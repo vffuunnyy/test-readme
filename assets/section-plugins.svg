@@ -28,7 +28,7 @@
   <path d="M31 132V28C27.134 28 24 31.134 24 35V125C24 128.866 27.134 132 31 132Z" fill="url(#accent3)"/>
   <text x="24" y="64" font-size="32" font-weight="800" fill="#e6edf3" font-family="Jetbrains Mono, ui-sans-serif, system-ui" transform="translate(24,28)" filter="url(#ds3)">Plugins</text>
 
-  <image href="https://raw.githubusercontent.com/vffuunnyy/test-readme/main/assets/kubei.gif" x="1000" y="-10" height="160" opacity="1" preserveAspectRatio="xMidYMid slice" transform="scale(-1, 1) translate(-2176, 0)" />
+  <image href="https://cdn.jsdelivr.net/gh/vffuunnyy/test-readme/assets/naruto.gif" x="1000" y="5" height="140" opacity="1" preserveAspectRatio="xMidYMid slice" transform="scale(-1, 1) translate(-2150, 0)" />
 </svg>
 
 
