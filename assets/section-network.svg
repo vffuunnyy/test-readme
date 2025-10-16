@@ -22,4 +22,6 @@
   <path d="M1158 28.5C1167.67 28.5 1175.5 36.335 1175.5 46V114C1175.5 123.665 1167.67 131.5 1158 131.5H30.5V28.5H1158Z" stroke="#1F2937" stroke-opacity="0.6" fill="none"/>
   <path d="M31 132V28C27.134 28 24 31.134 24 35V125C24 128.866 27.134 132 31 132Z" fill="url(#accent)"/>
   <text x="24" y="64" font-size="32" font-weight="800" fill="#e6edf3" font-family="Jetbrains Mono, ui-sans-serif, system-ui" transform="translate(24,28)" filter="url(#ds)">Network &amp; Security Tools</text>
+
+  <image href="https://raw.githubusercontent.com/vffuunnyy/test-readme/main/assets/kubei.gif" x="1000" y="-10" height="160" opacity="1" preserveAspectRatio="xMidYMid slice" transform="scale(-1, 1) translate(-2176, 0)" />
 </svg>
