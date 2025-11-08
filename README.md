@@ -33,7 +33,7 @@
 - **[Sysdik](https://github.com/vffuunnyy/sysdik)** — Легковесный REST API сервер на Rust для управления systemd сервисами. Старт/стоп/рестарт, мониторинг статуса, логи и Swagger UI.  
   ![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white) ![REST API](https://img.shields.io/badge/REST-API-green)
 
-- **[PushBridger](https://github.com/vffuunnyy/PushBridger)** — Сервис для интеграции и отправки push-уведомлений через различные платформы с единым API.  
+- **[PushBridger](https://github.com/vffuunnyy/PushBridger)** — Сервис для получения push-уведомлений с различных сервосов и агрегация в едином API.  
   ![Push](https://img.shields.io/badge/Push-Notifications-blueviolet)
 
 <p align="center">
